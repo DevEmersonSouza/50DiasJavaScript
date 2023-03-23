@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <div>
+        <h1>Digite a temperatura em °F no campo abaixo e em seguida aperte o botão Converter!</h1>
+    </div>
+    <div>
+        <input type="number" id="temperaturaDigitada" onkeypress="conversorDeTemperatura()" placeholder="°F">
+        <button id="CalcularCubo" onclick="conversorDeTemperatura()">Converter</button>
+        <input id="resultado" disabled="disabled" placeholder="°C" style="text-align: end;">
+    </div>
+    <div id="mensagem">
+
+    </div>
+</body>
+<script src="exercicio3.js"></script>
+</html>
